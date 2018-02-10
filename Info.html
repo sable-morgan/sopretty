@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<!--==================================================================
+//
+// Web site: It's So Pretty
+// Web page: Information
+// Description: A page with form on how to get more information.
+// 
+// 
+// 
+//=================================================================-->
+
+<head>
+  
+	<title>Information :: It's So Pretty</title>
+	<meta charset="UTF-8">
+  <meta name="author" content="Sable"/>
+  <meta name="description" content="DIY"/>
+  <meta http-equiv="Expires" content="-1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+	<script type="text/javascript">
+
+		//==================================================
+		// SomeFunction
+		//==================================================
+		function SomeFunction()
+		{
+		}
+		
+	</script>
+  
+</head>
+ 
+<body>
+  <!-- logo/banner -->
+  <h1><img src="images/isp.png"></h1>
+  
+  <!-- navbar -->
+  <h1><a href="home.html">Home</a> <a href="products.html">Products</a> <a href="info.html">Information</a></h1>
+  <hr>
+  
+  <!-- content -->
+  <h2>Information Form</h2>
+  <p>To receive more information about this company fill out the form below.</p>
+  
+  <!-- form -->
+  <form method="get" enctype="application/x-www-form-urlencoded" action="http://www.tipjar.com/cgi-bin/test">
+    <label>First name: </label><input type="text" name="txtFirstName">
+    <br><br>
+    <label>Last name: </label><input type="text" name="txtLastName">
+    <br><br>
+    <label>Email address: </label><input type="text" name="txtEmail">
+    <br><br>
+	<label>Mailing address: </label><input type="text" name="txtSnailMail">
+    <br><br>
+	<!--radio buttons-->
+    <legend>Preferred Delivery Format</legend>
+    <input type="radio" name="format" value="Email"> Email<br>
+    <input type="radio" name="format" value="Snail"> Snail Mail<br>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+  
+ 
+  <!-- more content -->
+  <h2>Thank You</h2>
+
+
+  <!-- footer -->
+  <br>© 2017 by Sable of It's So Pretty
+  
+</body>
+ 
+</html>
