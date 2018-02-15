@@ -4,10 +4,11 @@
 
 	<title>Sable's Homepage</title>
 	<meta charset="UTF-8">
-  <meta http-equiv="Expires" content="-1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta name="description" content="Sables Awesome Website Created By Sable Morgan. Has her Portfolio and Blog located at this site">
+  <meta name="description" content="Sable's Awesome Website Created By Sable Morgan. Her Portfolio and Blog are located here.">
   <meta name="author" content="Sable">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -16,6 +17,12 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#2d89ef">
   <meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap core CSS -->
+	<link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Custom styles for this template -->
+	<link href="http://v4-alpha.getbootstrap.com/examples/grid/grid.css" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 
 	<script type="text/javascript">
@@ -33,43 +40,47 @@
 
 <body>
   <!-- logo/banner -->
-  <h1>Sable Morgan</h1>
+	<h1>Sable's Site</h1>
   <p id="#top"></p>
   <!-- navbar -->
-  <h3><a href="Home.html">Home</a> <a href="Portfolio.html">Portfolio</a>
-     <a href="blog.html">Blog</a></h3>
+  <h3><ul class="nav nav-pills nav-justified">
+		<li class="active"><a href="Home.html">Home</a></li>
+		<li><a href="Portfolio.html">Portfolio</a></li>
+     <li><a href="blog.html">Blog</a></li></h3>
 
   <hr>
   <!-- content -->
-	<img src="images/sable.png" height="200" alt="pic of Sable">
-  <h1>Hello. My name is Sable. I enjoy making clothes and writing code.</h1>
-  <h2>Clothes</h2>
-  <p>I'm self taught seamtress. I enjoy making garments from scratch or turning
-    something old into something new. It started off as a hobby and turned into
-    a little business. It's a wonderful thing to know how to sew. It's so cool!</p>
-  <p> I have made:
-  <ul>
-    <li>Tutus</li>
-    <li>Skirts</li>
-    <li>Shirts</li>
-    <li>Dresses</li>
-    <li>Bowties</li>
-    <li>Swimsuits</li>
-    <li>Mittens</li>
-  </ul>
-  </p>
-  <p>It's very possible that I'm leaving something out :^)</p>
+	<h1><img class="img-circle" "img-responsive" src="images/sable.png" height="200" alt="pic of Sable"></h1>
+  <h1>>Hello World. My name is Sable and I love to create.</h1>
+	<div class="row">
+		<div class="col-md-6"><h2>Code</h2>
+	  <p><b>#codegang</b><b>#itchick</b><br>
+	  Ok now that thats out of the way let's talk about this coding life of mines.
+	  I'm not sure where my love of code began but I want to say I don't really even
+	  like coding much. I love troubleshooting. Theres where my love of coding is.</p></div>
+	</div>
+		<div class="col-md-6"><h2>Clothes</h2>
+	  <p>I'm self taught seamtress. I enjoy making garments from scratch or turning
+	    something old into something new. It started off as a hobby and turned into
+	    a little business. It's a wonderful thing to know how to sew. It's so cool!</p>
+	  <p> I have made:
+	  <ul>
+	    <li>Tutus</li>
+	    <li>Skirts</li>
+	    <li>Shirts</li>
+	    <li>Dresses</li>
+	    <li>Bowties</li>
+	    <li>Swimsuits</li>
+	    <li>Mittens</li>
+	  </ul>
+	  </p>
+	  <p>It's very possible that I'm leaving something out :^)</p></div>
 
   <p>Check out this <u>happy client!</u></p>
   <!-- pics -->
   <h2>Satisfied Customer</h2>
   <img src="images/tutu2.jpg" alt="young woman in tutu and custom top" height="300">
 
-  <h2>Code</h2>
-  <p><b>#codegang</b><b>#itchick</b><br>
-  Ok now that thats out of the way let's talk about this coding life of mines.
-  I'm not sure where my love of code began but I want to say I don't really even
-  like coding much. I love troubleshooting. Theres where my love of coding is.</p>
   <p><a href="#top">Go to top of page.</a></p>
 
   <!-- footer -->
